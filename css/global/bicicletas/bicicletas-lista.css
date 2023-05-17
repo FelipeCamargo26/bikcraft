@@ -13,6 +13,11 @@
   padding: 0 20px;
   max-width: 1440px;
   margin: 0 auto;
+  overflow-x: auto;
+}
+/* Aqui ele não diminui menos que esse valor que determinei e o pai vem com atributo overflow scroll que gera o scroll na sessão, mas para não ficar com scroll habilitado eu coloco o valor de auto que so vai gerar se precisar e também informo o eixo que nesse caso é o X  */
+.bicicletas-lista li {
+  min-width: 280px;
 }
 
 .bicicletas-lista a {
@@ -36,6 +41,10 @@
   height: 8px;
   width: 12px;
   margin-right: 8px;
+  transition: width 0.2s;
+}
+.bicicletas-lista a:hover h3::before {
+  width: 24px;
 }
 
 .bicicletas-lista li span {
