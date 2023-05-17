@@ -27,22 +27,8 @@
   margin-bottom: 32px;
 }
 
-.introducao-conteudo h1::after {
-  content: ".";
-  color: var(--cor-p1);
-}
-
 .introducao-conteudo p {
   margin-bottom: 20px;
-}
-
-@media (max-width: 1200px) {
-  .introducao-conteudo h1 {
-    font-size: 3rem;
-  }
-  .introducao-conteudo p {
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 800px) {
@@ -52,7 +38,6 @@
     box-shadow: inherit 0 -60px #ffffff;
   }
   .introducao-conteudo h1 {
-    font-size: 2rem;
     margin-bottom: 16px;
   }
   .introducao {

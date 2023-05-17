@@ -29,3 +29,7 @@ img {
   display: block;
   max-width: 100%;
 }
+/* Forma de arrendondar as imagem que contem src e no final .jpg */
+img[src$=".jpg"] {
+  border-radius: 5px;
+}

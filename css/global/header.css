@@ -21,9 +21,6 @@
   color: var(--cor-0);
   padding: 16px 0px;
   display: inline-block;
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 1.125rem;
   position: relative;
 }
 
@@ -67,7 +64,6 @@
     gap: 12px;
   }
   .header-menu a {
-    font-size: 0.875rem;
     padding: 8px 12px;
   }
 }
