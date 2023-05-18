@@ -1,6 +1,9 @@
 .parceiros {
   margin-bottom: 60px;
 }
+.parceiros h2 {
+  margin-bottom: 60px;
+}
 
 .parceiros ul {
   display: grid;

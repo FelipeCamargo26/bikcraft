@@ -24,6 +24,14 @@
   color: #ffc601;
 }
 
+.btn.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+.btn.secundario:hover {
+  background: var(--cor-9);
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
