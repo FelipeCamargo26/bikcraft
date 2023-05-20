@@ -1,7 +1,9 @@
 .conteiner {
+  box-sizing: border-box;
   max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .btn {
@@ -17,6 +19,7 @@
   border-radius: 5px;
   font-family: "Poppins";
   font-weight: 600;
+  max-width: max-content;
 }
 
 .btn:hover {
