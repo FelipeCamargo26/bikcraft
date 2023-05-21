@@ -8,6 +8,8 @@
   gap: 30px;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-menu {

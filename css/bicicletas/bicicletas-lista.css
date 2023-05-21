@@ -4,6 +4,8 @@
 }
 
 .bicicletas-lista h2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-bottom: 40px;
 }
 
@@ -49,4 +51,11 @@
 
 .bicicletas-lista li span {
   padding-left: 20px;
+}
+
+@media (max-width:800px) {
+  .bicicletas-lista h2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
