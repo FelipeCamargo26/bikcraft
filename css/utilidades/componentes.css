@@ -27,6 +27,26 @@
   color: #ffc601;
 }
 
+.btn.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  
+}
+.btn.seta {
+  display: flex;
+  align-items: center;
+}
+
+.btn.seta:hover::after {
+  transform: translateX(4px);
+  transition: 0.2s;
+}
+
+
 .btn.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
@@ -59,5 +79,27 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 1;
+  }
+}
+
+/* Titulos internos  */
+
+.titulo-bg {
+  background: var(--cor-11);
+  padding: 60px 0px 60px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding: 40px 0px 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
