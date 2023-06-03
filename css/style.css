@@ -33,3 +33,6 @@
 /* Contato */
 @import "./contato/contato.css";
 @import "./contato/loja.css";
+
+/* Oreçamento */
+@import "./orcamento/orcamento.css";
